@@ -9,7 +9,7 @@ namespace gestion_boutique_c_.Core.Repo
     public interface IRepository <T>
     {
         List<T> SelectAll ();
-        T SelectById (int id);
+        T? SelectById (int id);
         void Update (T item);
         void Insert (T item);
         void Delete (int id);

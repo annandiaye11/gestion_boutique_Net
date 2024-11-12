@@ -24,7 +24,12 @@ namespace gestion_boutique_c_.Data.Entities
         public  string Surname { get => surname; set => surname = value; }
         public string Telephone { get => telephone; set => telephone = value; }
         public string Adresse { get => adresse; set => adresse = value; }
-
+        public IEnumerable<Dette> Dettes { get; } = new List<Dette>();
+        public void AddDette( Dette dette)
+        {
+            Dettes.Append<Dette>(dette);
+            dette.Client = this;
+        }
         public override string ToString()
         {
             return "Client[" + 
