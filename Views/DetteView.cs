@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace gestion_boutique_c_
+namespace gestion_boutique_c_.Views
 {
-    internal class anna
+    public class DetteView
     {
     }
 }

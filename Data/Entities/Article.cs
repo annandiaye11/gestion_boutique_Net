@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace gestion_boutique_c_.Data.Entities
 {
-    internal class Article
+    public class Article
     {
+
     }
 }
