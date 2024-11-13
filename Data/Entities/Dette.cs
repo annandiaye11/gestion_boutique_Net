@@ -1,4 +1,4 @@
-﻿using System;
+
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace gestion_boutique_c_.Data.Entities
 {
-    internal class Dette
+    public class Dette
     {
-<<<<<<< Updated upstream
-=======
+
         public int Id { get; set; }
         public DateTime Date { get; set; } = DateTime.Now;
         public float Montant { get; set; }
@@ -19,6 +18,12 @@ namespace gestion_boutique_c_.Data.Entities
         {
             return $"Dette n°{Id}, du {Date:dd/MM/yyyy} pour {Montant}";
         }
->>>>>>> Stashed changes
+
+        public int Id { get; set; }
+        public DateTime Date { get; set; } = DateTime.Now;
+        public int Montant { get; set; }
+        public Client Client { get; set; }
+         
+
     }
 }

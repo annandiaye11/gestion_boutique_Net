@@ -23,7 +23,7 @@ namespace gestion_boutique_c_.Data.Repository.List.Impl
             return clients;
         }
 
-        public Client SelectById(int id)
+        public Client? SelectById(int id)
         {
             foreach (var client in  clients)
             {
