@@ -5,6 +5,6 @@ namespace gestion_boutique_c_.Data.Repository.List
 {
     public interface IClientRepositoryList : IRepository<Client>
     {
-        List<Client> SelectBySurname(string surname);
+       Client? FindBySurname(string surname);
     }
 }

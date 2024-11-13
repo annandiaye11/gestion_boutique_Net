@@ -32,9 +32,9 @@ namespace gestion_boutique_c_.Data.Repository.List.Impl
             return null;
         }
 
-        public List<Client> SelectBySurname(string surname)
+        public Client? FindBySurname(string surname)
         {
-            throw new NotImplementedException();
+            return clients.Find(cl => cl.Surname.ToLower() == surname.ToLower());
         }
 
         public void Update(Client item)

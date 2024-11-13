@@ -23,7 +23,12 @@ namespace gestion_boutique_c_.Services.List.Impl
 
         public Client FindById(int id)
         {
-            return clientRepository.SelectById(id);
+            return clientRepository.SelectById(id)!;
+        }
+
+        public Client? FindBySurname(string surname)
+        {
+            return clientRepository.FindBySurname(surname);
         }
 
         public void Save(Client client)
@@ -35,5 +40,7 @@ namespace gestion_boutique_c_.Services.List.Impl
         {
             clientRepository.Update(client);
         }
+
+        
     }
 }

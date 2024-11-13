@@ -10,6 +10,7 @@ namespace gestion_boutique_c_.Services.List
         void Save(Client client);
         void Delete(int id);
         void Update(Client client); 
+        Client? FindBySurname(string surname);
 
     }
 }

@@ -45,6 +45,14 @@ internal class Program
                         clientService.Delete(client2.Id);
                     }
                     break;
+                case 5:
+                    Console.WriteLine("Le sirnom du client : ");
+                    Client? client3 = clientService.FindBySurname(Console.ReadLine()!); 
+                    if (client3 != null) 
+                    {
+                        ClientView.ListDetteClients(client3); 
+                    }
+                    break;
                 case 0:
                     Console.WriteLine("Bye-Bye");
                     break;
@@ -65,6 +73,7 @@ internal class Program
         Console.WriteLine("2. Afficher tous les clients");
         Console.WriteLine("3. Modifier un client");
         Console.WriteLine("4. Supprimer un clients");
+        Console.WriteLine("5. Afficher les dette d'un clients");
         Console.WriteLine("0. Quitter");
         Console.WriteLine("Faite un choix :");
         return Convert.ToInt32(Console.ReadLine());
