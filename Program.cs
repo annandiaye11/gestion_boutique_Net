@@ -12,7 +12,10 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        /*
         IClientRepositoryList clientRepositoryList = new ClientRepositoryListImpl();
+        */
+        IClientRepositoryList clientRepositoryList = new ClientRepositoryBdImplt();
         IClientService clientService = new ClientServiceImpl(clientRepositoryList);
 
         int choice;

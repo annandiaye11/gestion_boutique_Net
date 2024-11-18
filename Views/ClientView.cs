@@ -25,13 +25,16 @@ namespace gestion_boutique_c_.Views
 
         public static Client CreateClient()
         {
+            // for the database i have to insert the id (postgresql).
+            Console.Write("Id : ");
+            int id = int.Parse(Console.ReadLine());
             Console.Write("Surname : ");
             string surname = Console.ReadLine()!;
             Console.Write("Tel : ");
             string tel = Console.ReadLine()!;
             Console.Write("Adresse : ");
             string adresse = Console.ReadLine()!;
-            Client client = new() { Surname = surname, Telephone = tel, Adresse = adresse };
+            Client client = new() { Id = id, Surname = surname, Telephone = tel, Adresse = adresse };
                 do
                 {
                     // ajouter une dette au client

@@ -18,12 +18,6 @@ namespace gestion_boutique_c_.Data.Entities
         {
             return $"Dette n°{Id}, du {Date:dd/MM/yyyy} pour {Montant}";
         }
-
-        public int Id { get; set; }
-        public DateTime Date { get; set; } = DateTime.Now;
-        public int Montant { get; set; }
-        public Client Client { get; set; }
-         
-
+        
     }
 }

@@ -32,13 +32,6 @@ namespace gestion_boutique_c_.Data.Entities
             dette.Id = Dettes.Count;
             dette.Client = this;
         }
-        public IEnumerable<Dette> Dettes { get; } = new List<Dette>();
-        public void AddDette( Dette dette)
-        {
-            Dettes.Append<Dette>(dette);
-            dette.Client = this;
-        }
-
         public override string ToString()
         {
             return "Client[" + 

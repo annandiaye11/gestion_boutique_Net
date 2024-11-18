@@ -10,11 +10,11 @@
 
   <ItemGroup>
     <Folder Include="Core\Factory\" />
-    <Folder Include="Data\Repository\bd\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="9.0.0" />
+    <PackageReference Include="Npgsql" Version="9.0.0" />
   </ItemGroup>
 
 </Project>
