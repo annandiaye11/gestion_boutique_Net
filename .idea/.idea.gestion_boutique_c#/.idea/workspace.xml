@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8b04695-652f-4ab3-8b80-351e0ce1a86c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.gestion_boutique_c#/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.gestion_boutique_c#/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f8b04695-652f-4ab3-8b80-351e0ce1a86c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731944463484</updated>
       <workItem from="1731944470491" duration="353000" />
-      <workItem from="1731944830918" duration="16548000" />
+      <workItem from="1731944830918" duration="17215000" />
     </task>
     <task id="LOCAL-00001" summary="Merge pull request #4 from annandiaye11/cours_2_bd&#10;&#10;bd_to_be_continue1">
       <option name="closed" value="true" />
